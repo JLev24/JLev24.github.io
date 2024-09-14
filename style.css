@@ -103,3 +103,7 @@ footer > h2 {
     color: white;
 }
 
+body > main > form {
+    background-color: white
+}
+

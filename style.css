@@ -8,8 +8,8 @@ body {
     margin: 0px;
     padding: 8px;
     font-family: sans-serif;
-    box-shadow: 8px 8px 10px 3px darkorange;
-    width: 16%;
+    box-shadow: 8px 8px 10px 4px rgb(163, 132, 4);
+    width: 19%;
     text-shadow:
     1px 1px 0px black
     -1px 1px 0px black
@@ -22,8 +22,8 @@ ul {
 }
 
 body > header {
-    background-color: orange;
-    color: white;
+    background-color: gold;
+    color: rgb(254, 254, 200);
     display: flex;
     height: 12vh;
     align-items: center;
@@ -60,6 +60,7 @@ body > main article {
 #main-content {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(254, 254, 200);
 }
 
 #main-content > div {
@@ -75,7 +76,7 @@ h2 {
 }
 
 body > footer {
-    background-color: orange;
+    background-color: gold;
     display: flex;
 
 }
@@ -96,5 +97,9 @@ img {
 #footer-ul > div > li > a {
     color: white;
     text-decoration: none
+}
+
+footer > h2 {
+    color: white;
 }
 
